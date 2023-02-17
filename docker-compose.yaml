@@ -1,0 +1,6 @@
+version: '2.4'
+services:
+  docker-engine-api-example:
+    image: bennylu/docker-engine-api-example
+    volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
