@@ -2,21 +2,18 @@ In this repo, we use docker engine api within a container (named docker-engine-a
 
 Usage:
 
-## 1. Build docker image
+1. Build docker image
 
-```
 ./build.sh
-```
 
-## 2. Execution
-```
+
+2. Execution
+
 docker-compose up
 or
 docker run -v /var/run/docker.sock:/var/run/docker.sock bennylu/docker-engine-api-example
-```
 
-## 3. See if a new nginx container is started
 
-```
+3. See if a new nginx container is started
+
 docker ps
-```
